@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index Page</title>
+</head>
+<body>
+	<h3>Profiles</h3>
+	<br>
+	<table>
+		<thead>
+			<th>Id</th>
+			<th>User_Name</th>
+			<th>Email</th>
+			<th>Password</th>
+			<th>#</th>
+		</thead>
+		{% for data in profiles %}
+		<tbody>
+			<td>{{data.id}}</td>
+			<td>{{data.u_name}}</td>
+			<td>{{data.email}}</td>
+			<td>{{data.password}}</td>
+			
+		</tbody>
+		{% endfor%}
+	</table>
+</body>
+</html>

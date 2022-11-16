@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFD200;
+  }
+  .navbar-brand{
+    color: White;
+    font-weight: 600 !important;
+    font-size:30px !important;
+    margin-left: 30px;
+  }
+  .row
+  {
+  
+   background-color: #FFD200;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+  }
+  .col-md-8 h1{
+    margin-top: 100px; 
+  }
+  .cardbody{
+    background-color: white;
+   
+    border-radius: 10px;
+  }
+  .form{
+    background-color: white;
+   
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .btn{
+    background-color: #FFD200;
+  }
+ 
+  
+  
+  #Text{
+    font-size: 50px;
+    font-weight: 400;
+    
+  }
+  #box{
+   border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #text-cover{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .pop_msg,.container{
+    background-color: #FFD200;
+  }
