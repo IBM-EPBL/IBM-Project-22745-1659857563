@@ -1,0 +1,39 @@
+body{
+
+}
+.nav-link:hover{
+    background-color: yellow;
+    color: black;
+    
+} 
+
+.nav-link{
+    color: white;
+}
+.container{
+    width: 100%;
+    color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+}
+.row{
+    margin-top: 10px;
+    height: 180px; 
+    margin-left: 10px;
+    margin-right:10px;
+    width: 100%;
+    background-color: #fff;
+}
+.card-body{
+    background: #ddd;
+    
+}
+.table{
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.btn{
+   
+}
