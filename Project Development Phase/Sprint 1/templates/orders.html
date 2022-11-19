@@ -1,0 +1,27 @@
+{% extends 'base2.html '%} {% block head %}
+<title>Add products</title>
+{% endblock%} {%block body%}
+<h2>Orders</h2>
+<div class ="order_class flex-md-column ">
+  <form method="post" action="#" >  
+
+     
+      <label> Product name: &nbsp;&nbsp;</label> <input type="string" name="prodname" style="width: 150px" autocomplete="off" >  
+     
+      <br> <br>  
+      <label> Item quantity: &nbsp;&nbsp;</label> <input type="number" name="quantity" style="width: 150px" autocomplete="off" >  
+     
+      <br> <br>  
+
+      <label > Warehouse location: &nbsp;&nbsp;</label> 
+      <select name="warehouse_location">
+              <option value="Chennai">Chennai</option>
+              <option value="Banglore">Banglore</option>
+            
+            </select>
+      <br> <br> 
+      <input class=" col-3 ml-4" type="submit" name="submit" value="Submit">    
+    </form>
+</div>
+
+{% endblock%}
